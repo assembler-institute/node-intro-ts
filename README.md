@@ -1,4 +1,3 @@
-Title: Tutorial: Generating Backend Boilerplate with Express using TypeScript
 
 # Table of Contents
 
