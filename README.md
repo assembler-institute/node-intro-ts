@@ -330,8 +330,14 @@ Open the .gitignore file and add the following lines:
 # Compiled output
 /dist
 
-# Environment variables
+# dotenv environment variable files
 .env
+.env.development.local
+.env.development
+.env.test.local
+.env.production.local
+.env.production
+.env.local
 
 # IDE and editor files
 .vscode/
