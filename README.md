@@ -256,11 +256,9 @@ app.listen(PORT,()=>{
 })
 ```
 
-In this modification, we import the `userRoutes` from the `userRoutes.ts` file and use it in the Express app to handle user-related routes.
+Paths and controllers for users' CRUD operations are now organized in separate files. You can add more paths and controllers for other resources as needed in the `server.ts` file.
 
-Now, the routes and controllers for user CRUD operations are organized in separate files. You can add more routes and controllers for other resources as needed.
-
-## Step 11: Create Configuration File
+## Step 10: Create Configuration File
 
 In this step, we will create a `config` folder with a configuration file that handles environment-specific configurations using the `dotenv` package.
 
@@ -315,7 +313,7 @@ With this setup, you can easily switch between development and production enviro
 
 Now you have a configuration file that can be used to manage environment-specific configurations in your project.
 
-## Step 10: Generating the .gitignore File
+## Step 11: Generating the .gitignore File
 
 To generate the .gitignore file, follow these steps:
 
